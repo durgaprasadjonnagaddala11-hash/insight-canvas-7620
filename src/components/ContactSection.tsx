@@ -28,7 +28,7 @@ const ContactSection = () => (
 
         <div className="flex items-center justify-center gap-4 mb-10">
           <a
-            href="https://www.linkedin.com/in/durga-prasad-jonnagaddala"
+            href="https://linkedin.com/in/durga-prasad-jonnagaddala/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-full border border-border flex items-center justify-center text-muted-foreground hover:text-primary hover:border-primary transition-colors"
