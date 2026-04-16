@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Linkedin, Mail } from "lucide-react";
+import { LinkedinIcon, Mail } from "lucide-react";
 
 const ContactSection = () => (
   <section id="contact" className="py-24 px-6">
