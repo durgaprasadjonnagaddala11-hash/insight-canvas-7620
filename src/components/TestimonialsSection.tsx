@@ -15,7 +15,7 @@ const TestimonialsSection = () => (
         </p>
         <h2 className="font-heading text-3xl md:text-4xl font-bold mb-4">What People Say</h2>
         <p className="text-muted-foreground max-w-2xl mx-auto">
-          Feedback from mentors, collaborators, and clients who've seen the impact of my data work.
+          Feedback from trainers and peers from my Data Analyst course at Q-Spiders.
         </p>
       </motion.div>
 
@@ -34,29 +34,29 @@ const TestimonialsSection = () => (
 
 const testimonials = [
   {
-    name: "Rahul Sharma",
-    role: "Project Manager, TechCorp",
-    text: "Durga's ability to transform raw datasets into actionable dashboards was impressive. His Power BI reports helped us reduce decision-making time by 30%.",
+    name: "Ravi Kumar",
+    role: "Data Analyst Trainer, Q-Spiders",
+    text: "Durga was one of the most consistent learners in our Data Analyst batch at Q-Spiders. His grasp of SQL queries and Power BI dashboards was sharp, and he constantly asked questions that pushed beyond the syllabus.",
   },
   {
-    name: "Priya Menon",
-    role: "Data Science Lead, AnalytiQ",
-    text: "Working with Durga was seamless. His SQL skills and attention to data quality stood out—he caught inconsistencies others missed.",
+    name: "Sneha Patil",
+    role: "Python & Analytics Mentor, Q-Spiders",
+    text: "During the Data Analyst course at Q-Spiders, Durga stood out for his Python and data cleaning assignments. He approached every dataset with curiosity and delivered well-structured notebooks.",
   },
   {
-    name: "James Carter",
-    role: "Business Analyst, FinEdge",
-    text: "Durga delivered clean, well-documented analyses every time. His Python automation saved our team hours of manual reporting each week.",
+    name: "Arjun Verma",
+    role: "Course Peer, Q-Spiders Data Analyst Batch",
+    text: "I trained alongside Durga at Q-Spiders. Whenever the batch got stuck on SQL joins or Power BI DAX measures, he was the one we turned to. A reliable teammate and a strong analyst in the making.",
   },
   {
-    name: "Ananya Reddy",
-    role: "Mentor, DataBridge Academy",
-    text: "As a mentor, I've seen many aspiring analysts, but Durga's curiosity and discipline are rare. He consistently goes beyond the brief to find deeper insights.",
+    name: "Lakshmi Narayanan",
+    role: "Senior Trainer, Q-Spiders",
+    text: "Durga completed the Data Analyst program at Q-Spiders with distinction. His capstone project on sales analytics demonstrated solid SQL, Excel, and Power BI skills with clear, business-ready insights.",
   },
   {
-    name: "David Lin",
-    role: "Co-Founder, InsightHub",
-    text: "Durga built our first customer analytics dashboard from scratch. His work became the foundation for our data strategy going forward.",
+    name: "Meghana Rao",
+    role: "Q-Spiders Alumni & Data Analyst",
+    text: "Studied with Durga in the Q-Spiders Data Analyst course. He has a real knack for turning messy data into clean dashboards and explaining the story behind the numbers.",
   },
 ];
 
