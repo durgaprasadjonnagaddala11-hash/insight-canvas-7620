@@ -25,12 +25,12 @@ const Header = () => {
         scrolled ? "bg-background/90 backdrop-blur-md border-b border-border" : "bg-transparent"
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-        <a href="#" className="font-heading text-base sm:text-lg font-bold text-foreground tracking-tight whitespace-nowrap">
+      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between gap-4">
+        <a href="#" className="font-heading text-sm sm:text-lg font-bold text-foreground tracking-tight whitespace-nowrap flex-shrink min-w-0 truncate">
           Durga Prasad Jonnagaddala<span className="text-primary">.</span>
         </a>
 
-        <nav className="hidden md:flex items-center gap-8">
+        <nav className="hidden lg:flex items-center gap-8">
           {navLinks.map((l) => (
             <a
               key={l.href}
@@ -49,7 +49,7 @@ const Header = () => {
         </nav>
 
         <button
-          className="md:hidden text-foreground"
+          className="lg:hidden text-foreground flex-shrink-0"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
@@ -63,7 +63,7 @@ const Header = () => {
             initial={{ opacity: 0, y: -10 }}
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -10 }}
-            className="md:hidden bg-background/95 backdrop-blur-md border-b border-border px-6 pb-4"
+            className="lg:hidden bg-background/95 backdrop-blur-md border-b border-border px-6 pb-4"
           >
             {navLinks.map((l) => (
               <a

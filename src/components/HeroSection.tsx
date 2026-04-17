@@ -8,7 +8,7 @@ const HeroSection = () => (
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.1 }}
-        className="text-primary font-medium text-sm tracking-widest uppercase mb-4"
+        className="text-primary font-semibold text-base md:text-xl tracking-widest uppercase mb-4"
       >
         Data Analyst
       </motion.p>
