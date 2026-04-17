@@ -34,27 +34,27 @@ const TestimonialsSection = () => (
 
 const testimonials = [
   {
-    name: "Ravi Kumar",
+    name: "Greeshma Shetty",
     role: "Data Analyst Trainer, Q-Spiders",
     text: "Durga was one of the most consistent learners in our Data Analyst batch at Q-Spiders. His grasp of SQL queries and Power BI dashboards was sharp, and he constantly asked questions that pushed beyond the syllabus.",
   },
   {
-    name: "Sneha Patil",
+    name: "Hari Krishna",
     role: "Python & Analytics Mentor, Q-Spiders",
     text: "During the Data Analyst course at Q-Spiders, Durga stood out for his Python and data cleaning assignments. He approached every dataset with curiosity and delivered well-structured notebooks.",
   },
   {
-    name: "Arjun Verma",
+    name: "HS Bharath",
     role: "Course Peer, Q-Spiders Data Analyst Batch",
     text: "I trained alongside Durga at Q-Spiders. Whenever the batch got stuck on SQL joins or Power BI DAX measures, he was the one we turned to. A reliable teammate and a strong analyst in the making.",
   },
   {
-    name: "Lakshmi Narayanan",
+    name: "Harshad",
     role: "Senior Trainer, Q-Spiders",
     text: "Durga completed the Data Analyst program at Q-Spiders with distinction. His capstone project on sales analytics demonstrated solid SQL, Excel, and Power BI skills with clear, business-ready insights.",
   },
   {
-    name: "Meghana Rao",
+    name: "Arockia",
     role: "Q-Spiders Alumni & Data Analyst",
     text: "Studied with Durga in the Q-Spiders Data Analyst course. He has a real knack for turning messy data into clean dashboards and explaining the story behind the numbers.",
   },
